@@ -1,4 +1,4 @@
-package num1;
+package _3无重复字母的最长子串;
 
 import java.util.*;
 
@@ -8,7 +8,7 @@ import java.util.*;
  * @author: ykn
  * @date: 2022年06月27日 14:14
  **/
-public class 无重复字母的最长字串 {
+public class Solution {
     public static int lengthOfLongestSubstring(String s) {
         Map<Character, Integer> map = new HashMap<>();
         int max = 0;
