@@ -1,5 +1,7 @@
 package 剑指Offer26树的子结构;
 
+import sun.reflect.generics.tree.Tree;
+
 /**
  * Description: 输入两棵二叉树A和B，判断B是不是A的子结构。(约定空树不是任意一个树的子结构)
  * <p>
@@ -33,6 +35,13 @@ package 剑指Offer26树的子结构;
  **/
 class Solution {
     public boolean isSubStructure(TreeNode A, TreeNode B) {
-        return false;
+        if (A == null || B == null) return false;
+        return isSubStructure(A.left, B) || isSubStructure(A.right, B) || contain(A, B);
+    }
+
+    public boolean contain(TreeNode A, TreeNode B) {
+        if (B == null) return true;
+        if (A == null || A.val != B.val) return false;
+        return contain(A.left, B.left) && contain(A.right, B.right);
     }
 }
