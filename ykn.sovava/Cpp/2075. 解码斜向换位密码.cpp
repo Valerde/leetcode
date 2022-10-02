@@ -49,26 +49,26 @@ string decodeCiphertext(string encodedText, int rows) {
 		res+=dt[i];
 	return res;
 }
-//string temp_decodeCiphertext(string encodedText, int rows) {
-//	int cols = encodedText.size() / rows;   // 辅助矩阵的列数
-//	string res;   // 遍历到的字符
-//	for (int i = 0; i < cols; ++i) {
-//		// 从左至右枚举每一条路径
-//		int r = 0;
-//		int c = i;
-//		while (r < rows && c < cols) {
-//			res.push_back(encodedText[r*cols+c]);
-//			++r;
-//			++c;
-//		}
-//	}
-//	// 删去末尾空格
-//	while (res.size() and res.back() == ' ') {
-//		res.pop_back();
-//	}
-//	return res;
-//
-//}
+string temp_decodeCiphertext(string encodedText, int rows) {
+	int cols = encodedText.size() / rows;   // 辅助矩阵的列数
+	string res;   // 遍历到的字符
+	for (int i = 0; i < cols; ++i) {
+		// 从左至右枚举每一条路径
+		int r = 0;
+		int c = i;
+		while (r < rows && c < cols) {
+			res.push_back(encodedText[r*cols+c]);
+			++r;
+			++c;
+		}
+	}
+	// 删去末尾空格
+	while (res.size() and res.back() == ' ') {
+		res.pop_back();
+	}
+	return res;
+
+}
 
 int main() {
 	cout<<decodeCiphertext("iveo    eed   l te   olc",4)<<"|";
