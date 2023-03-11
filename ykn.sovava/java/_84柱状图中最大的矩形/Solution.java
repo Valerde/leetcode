@@ -1,6 +1,7 @@
 package java._84柱状图中最大的矩形;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;

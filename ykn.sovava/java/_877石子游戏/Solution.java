@@ -1,6 +1,7 @@
 package java._877石子游戏;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 
 /**
  * Description: Alice 和 Bob 用几堆石子在做游戏。一共有偶数堆石子，排成一行；每堆都有 正 整数颗石子，数目为 piles[i] 。

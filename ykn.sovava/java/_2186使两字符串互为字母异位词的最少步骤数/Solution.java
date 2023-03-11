@@ -1,6 +1,7 @@
 package java._2186使两字符串互为字母异位词的最少步骤数;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 
 /**
  * Description: 给你两个字符串 s 和 t 。在一步操作中，你可以给 s 或者 t 追加 任一字符 。

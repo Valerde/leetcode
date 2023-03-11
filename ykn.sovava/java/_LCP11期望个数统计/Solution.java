@@ -1,6 +1,7 @@
 package java._LCP11期望个数统计;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 
 import java.util.HashSet;
 import java.util.Set;

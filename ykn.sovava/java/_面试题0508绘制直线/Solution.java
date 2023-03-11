@@ -1,6 +1,7 @@
 package java._面试题0508绘制直线;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 
 /**
  * Description: 已知一个由像素点组成的单色屏幕，每行均有 w 个像素点，所有像素点初始为 0，左上角位置为 (0,0)。

@@ -1,6 +1,6 @@
 package java._117相似的字符串;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 /**
  * Description: 如果交换字符串 X 中的两个不同位置的字母，使得它和字符串 Y 相等，那么称 X 和 Y 两个字符串相似。如果这两个字符串本身是相等的，那它们也是相似的。

@@ -1,6 +1,8 @@
 package java._2244完成所有任务所需的最少轮数;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 
 /**

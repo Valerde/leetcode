@@ -1,6 +1,6 @@
 package java._316最小字典序;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.Stack;
 
