@@ -26,6 +26,10 @@ public class _49 {
 
         List<List<String>> res = new ArrayList<>(m.values());
 
+
+        List<List<String>> lists = Collections.synchronizedList(res);
+
+
         return res;
     }
 }
