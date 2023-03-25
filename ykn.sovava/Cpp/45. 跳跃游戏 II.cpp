@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//Ö»ĞèÒªÔÚÒ»´Î ÌøÔ¾ Íê³ÉÊ±£¬¸üĞÂÏÂÒ»´Î ÄÜÌøµ½×îÔ¶µÄ¾àÀë¡£
+//Ö»ï¿½ï¿½Òªï¿½ï¿½Ò»ï¿½ï¿½ ï¿½ï¿½Ô¾ ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½Ä¾ï¿½ï¿½ë¡£
 int jump(vector<int>& nums) {
 	int end = 0;
 	int step = 0;
@@ -16,3 +16,14 @@ int jump(vector<int>& nums) {
 	}
 	return step;
 }
+int jump2(vector<int>& nums){
+int end = 0;
+int step = 0;
+int maxPosition = 0;
+for(int i = 0;i<nums.size()-1;i++){
+maxPosition = max(i+nums[i],maxPosition);
+if(i == end){
+end = Position;
+step++;}}
+return maxPosition;}
+
