@@ -1,7 +1,6 @@
 package com.sovava._2216美化数组的最少删除数;
 
-import java.util.Arrays;
-import java.util.LinkedList;
+
 
 /**
  * Description: TODO
