@@ -18,7 +18,7 @@ public class Solution {
             for (int j = 0; j < n; j++) {
                 int min = Integer.MAX_VALUE;
                 for (int k = 0; k < n; k++) {
-                    min = Math.min(min, dp[i-1][k] + moveCost[grid[i - 1][k]][j] + grid[i][j]);
+                    min = Math.min(min, dp[i - 1][k] + moveCost[grid[i - 1][k]][j] + grid[i][j]);
                 }
                 dp[i][j] = min;
             }
