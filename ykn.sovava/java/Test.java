@@ -1,4 +1,4 @@
-package com.sovava.pack;
+package ykn.sovava.java;
 
 import com.sun.deploy.util.OrderedHashSet;
 
