@@ -2,3 +2,6 @@
 /out/
 *.exe
 *.js
+/target/
+/.idea/
+/java_code/target
