@@ -1,4 +1,4 @@
-package com.sovava._24_01._1599经营摩天轮的最大利润;
+package com.sovava._24._01._1599经营摩天轮的最大利润;
 
 /**
  * Description: TODO
